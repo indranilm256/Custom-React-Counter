@@ -13,11 +13,11 @@ Clone the repo in local directory, cd into it
 
   
 
-- cd server
+- `cd server`
 
-- npm install
+- `npm install`
 
-- npm run server
+- `npm run server`
 
   
 
@@ -25,11 +25,11 @@ Clone the repo in local directory, cd into it
 
   
 
-- cd client
+- `cd client`
 
-- npm install
+- `npm install`
 
-- npm start
+- `npm start`
 
   
 
@@ -39,8 +39,8 @@ Clone the repo in local directory, cd into it
 
 - The counter will receive the count value from the API call, if it is null then counter is set to 1
 
-- If the used provides a maximum value for the counter from the environment variable : REACT_APP_MAX_VALUE then the counter input textbox will not take any larger input than the max value. The increment button will freeze at this max value and a text saying *Max value reached* is displayed. However the decrement button will still be operational.
-Also if the previous value loaded from the get API call is more than the max value both the increment and decrement button will freeze and user will have to manually input a new counter value
+- If the used provides a maximum value for the counter from the environment variable : `REACT_APP_MAX_VALUE` then the counter input textbox will not take any larger input than the max value. The increment button will freeze at this max value and a text saying *Max value reached* is displayed. However the decrement button will still be operational.
+Also if the previous value loaded from the get API call is more than the max value both the increment and decrement button will freeze and user will have to manually input a new counter value. Pass the maximum value like this: `REACT_APP_MAX_VALUE=374 npm start`
 
 - The value of the counter is displayed at the bottom from another component outside of the counter component
 
