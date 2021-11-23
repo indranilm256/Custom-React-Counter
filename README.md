@@ -48,4 +48,4 @@ Also if the previous value loaded from the get API call is more than the max val
 
 - During put API call, a loader gets displayed with the text *Saving current value*. After that the text *Value updated* is displayed.
 
-![Counter Demo](./client/src/components/assets/demo.mp4)
+![Alt text](./client/src/components/assets/demo.mp4)
