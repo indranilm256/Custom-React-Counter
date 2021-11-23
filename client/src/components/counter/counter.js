@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from '../../axios'
-import '../style.css'
-import logo from '../loading-buffering.gif'
+import '../assets/style.css'
+import logo from '../assets/loading-buffering.gif'
 
 class Counter extends Component {
     constructor(props) {
